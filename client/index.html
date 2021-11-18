@@ -14,8 +14,8 @@
     <header>
         <h1>NBA Players</h1>
         <form>
-            <input type="text" placeholder="First Name">
-            <input type="text" placeholder="Last Name">
+            <input type="text" placeholder="First Name" id="fn">
+            <input type="text" placeholder="Last Name" id="ln">
             <select name="pos" id="pos">
                 <option value="PG">Point Guard</option>
                 <option value="SG">Shooting Guard</option>
@@ -23,11 +23,11 @@
                 <option value="PF">Power Forward</option>
                 <option value="C">Center</option>
             </select>
-            <input type="text" placeholder="Player Image"><br>
+            <input type="text" placeholder="Player Image" id="imageinput"><br>
             <button>Submit</button>
         </form>
     </header>
-    <div id="playerlist">
+    <section id="playerlist">
         <div id="player">
             <div id="imgWrap">
                 <img id="headshot" src="https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4432166.png&w=350&h=254" alt="Cade Cunningham">
@@ -39,6 +39,7 @@
                 <h3>PG</h3>
             </div>
         </div>
-    </div>
+    </section>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </body>
 </html>

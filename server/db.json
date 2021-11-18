@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "firstname": "Cade",
+        "lastname": "Cunningham",
+        "position": "PG",
+        "imageURL" : "https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4432166.png&w=350&h=254"
+    },
+    {
+        "id": 2,
+        "firstname": "Jalen",
+        "lastname": "Green",
+        "position": "SG",
+        "imageURL" : "https://cdn.nba.com/headshots/nba/latest/1040x760/1630224.png"
+    },
+    {
+        "id": 3,
+        "firstname": "Evan",
+        "lastname": "Mobly",
+        "position": "C",
+        "imageURL" : "https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4432158.png&w=350&h=2544"
+    }
+  ]
