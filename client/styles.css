@@ -1,0 +1,65 @@
+body {
+    padding: 32px;
+    background-color: #1F1D2B;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+
+}
+
+input[type=text] {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-right: 4px;
+    background-color: #252836;
+    color: #ffffff7e;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 12px;
+    width: 250px;
+  }
+
+select {
+    background-color: #252836;
+    color: #ffffff7e;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 12px;
+    width: 250px;
+  }
+
+#player {
+    border-radius: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 600px;
+    background-color: #252836;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#headshot {
+    height: 50px;
+}
+
+#playerlist{
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    color: white;
+    margin-top: 24px;
+    background-color: rgb(53, 129, 228);
+    border: none;
+    border-radius: 12px;
+    padding: 12px 40px;
+    transition: 250ms;
+}
+
+button:hover {
+    background-color: rgb(23, 69, 129);
+    cursor: pointer;
+}
